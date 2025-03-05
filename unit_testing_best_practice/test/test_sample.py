@@ -2,8 +2,6 @@ import sys
 # Always run from unit_testing_best_practice/test
 sys.path += ['../src']
 
-import io
-
 
 from sample import *
 
