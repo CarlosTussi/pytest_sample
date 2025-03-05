@@ -4,7 +4,8 @@ sys.path += ['../src']
 
 import io
 
-from sample import *
+from ..src import *
+#from sample import *
 
 
 def test_test(monkeypatch):
