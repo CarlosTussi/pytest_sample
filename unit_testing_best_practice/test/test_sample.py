@@ -5,8 +5,8 @@ sys.path += ['../src']
 import io
 
 
-from sample import *
-
+#from sample import *
+from ..src import *
 
 def test_test(monkeypatch):
     monkeypatch.setattr('builtins.input', lambda _: "nospace")
